@@ -1,0 +1,25 @@
+&domain
+    N = 32,
+    Nz = 1,
+    topology_type    = 'cube',
+    staggering_type  = 'Ah',
+    metric_type      = 'ecs'
+/
+&metric
+/
+&shallow_water_model
+    div_op_name       = 'divergence_ah42_sbp',
+    grad_op_name      = 'gradient_ah42_sbp_ecs',
+    coriolis_op_name  = 'coriolis_A_Ah',
+    curl_op_name      = 'divergence_ah42_sbp',
+    KE_op_name        = 'KE_A_Ah',
+    co2contra_op_name = 'co2contra_colocated',
+    massflux_op_name  = 'massflux_colocated',
+    quadrature_name   = 'SBP_Ah42_quadrature'
+    dt=900.0,
+    tau_write = 21600.0,
+    simulation_time_days  = 5.0,
+    simulation_time_hours = 0.0,
+    simulation_time_min   = 0.0,
+    simulation_time_sec   = 0.0,
+/

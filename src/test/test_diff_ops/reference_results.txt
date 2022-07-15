@@ -1,0 +1,98 @@
+ divergence_a2_ecs
+Err:   0.3863087E-02  0.5870377E-02  0.1190266E-01  0.1648226E-01
+ divergence_a2_cons
+Err:   0.4870246E+00  0.5140857E+00  0.6245387E+00  0.5850706E+00
+ divergence_a2_fv
+Err:   0.2424860E+00  0.2059406E+00  0.5721728E+00  0.3640763E+00
+ divergence_c2
+Err:   0.9560508E-03  0.1467746E-02  0.2998986E-02  0.4134164E-02
+ divergence_ch_sbp21
+Err:   0.1505377E+00  0.1042675E+00  0.4783507E+00  0.2455832E+00
+ divergence_ch_sbp42
+Err:   0.1622280E-01  0.1067899E-01  0.5515300E-01  0.2580486E-01
+ divergence_c_sbp21
+Err:   0.9560508E-03  0.1467746E-02  0.2998986E-02  0.4134164E-02
+ divergence_c_sbp42
+Err:   0.1240310E-02  0.9655591E-03  0.3873332E-02  0.3195712E-02
+ divergence_ah2
+Err:   0.2336033E-01  0.2806911E-01  0.8849502E-01  0.7062042E-01
+ divergence_ah42_sbp
+Err:   0.3421411E-02  0.3440305E-02  0.1652535E-01  0.1559846E-01
+ divergence_ah43_sbp
+Err:   0.2207585E-03  0.2835612E-03  0.1706081E-02  0.1892527E-02
+ gradient_a2_ecs
+Err:   0.9105131E-03  0.2348801E-02
+ gradient_a2_cons
+Err:   0.3836629E+00  0.2471891E+00
+ gradient_ch_sbp21
+Err:   0.2284792E-03  0.5986908E-03
+ gradient_ch_sbp42
+Err:   0.2905307E-03  0.3569389E-03
+ gradient_ah21_sbp_ecs
+Err:   0.2515958E-01  0.1220895E-01
+ gradient_ah42_sbp_ecs
+Err:   0.1434695E-02  0.1520869E-02
+ gradient_ah43_sbp_ecs
+Err:   0.1498581E-03  0.1137685E-03
+ gradient_c2_ecs
+Err:   0.2368709E-03  0.6022896E-03
+ gradient_c_sbp21
+Err:   0.7069644E-01  0.7875412E-01
+ gradient_c_sbp42
+Err:   0.4080491E-02  0.3141512E-02
+ curl_divergence_ah42_sbp
+Err:   0.3421411E-02  0.3440305E-02  0.3097870E-01  0.3489891E-01
+ curl_divergence_ah43_sbp
+Err:   0.2207585E-03  0.2835612E-03  0.2847177E-02  0.2672676E-02
+ curl_c_sbp42
+Err:   0.1164711E-02  0.1113307E-02  0.1119477E-01  0.1220372E-01
+ curl_c_sbp21
+Err:   0.1210725E-01  0.1421562E-01  0.5738845E-01  0.4186012E-01
+ coriolis_colocated
+Err:   0.1221245E-14  0.1719294E-14
+ coriolis_Cgrid_sbp42
+Err:   0.2797949E-02  0.2507555E-02
+ coriolis_Cgrid_sbp21
+Err:   0.1866572E-01  0.1621604E-01
+ KE_colocated
+Err:   0.3330669E-15  0.3867417E-15  0.5551115E-15  0.4095881E-15
+ KE_Cgrid_sbp42
+Err:   0.2324300E-03  0.2761938E-03  0.7944276E-03  0.5660557E-03
+ KE_Cgrid_sbp21
+Err:   0.6001005E-03  0.1661294E-02  0.1230646E-02  0.2303043E-02
+ co2contra_c_sbp21
+Err:   0.6735793E-01  0.2572446E-01
+ co2contra_c_sbp21_new
+Err:   0.6735793E-01  0.2572446E-01
+ contra2co_c_sbp21_new
+Err:   0.5299493E-01  0.2580388E-01
+ co2contra_c_sbp42
+Err:   0.1313788E-01  0.7356931E-02
+ co2contra_c_sbp42_new
+Err:   0.1313788E-01  0.7356931E-02
+ co2contra_ch_sbp21
+Err:   0.6187488E-01  0.3405089E-01
+ co2contra_ch_sbp42
+Err:   0.5641616E-02  0.3696864E-02
+ co2contra_colocated Ah grid
+Err:   0.1554312E-14  0.1574317E-14
+ contra2co_c_sbp42_new
+Err:   0.1036216E-01  0.6450221E-02
+ contra2co_colocated
+Err:   0.1665335E-14  0.1839088E-14
+ vector_advection_C_up4
+Err:   0.1215385E-02  0.1215385E-02  0.1398456E-02  0.1398456E-02
+ vector_advection_C_up3
+Err:   0.1215385E-02  0.1215385E-02  0.1468179E-02  0.1468179E-02
+ vector_advection_C_up1
+Err:   0.4445976E-01  0.4445976E-01  0.4801740E-01  0.4801740E-01
+ vector_advection_C_c2
+Err:   0.2783722E-02  0.2783722E-02  0.3133172E-02  0.3133172E-02
+ vector_advection_C_c4
+Err:   0.1215243E-02  0.1215243E-02  0.1405062E-02  0.1405062E-02
+ vector_advection_Ah21
+Err:   0.4591661E-01  0.4591661E-01  0.2920449E-01  0.2920449E-01
+ vector_advection_Ah42
+Err:   0.6650340E-02  0.6650340E-02  0.4734311E-02  0.4734311E-02
+ vector_advection_Ah63
+Err:   0.1605957E-02  0.1605957E-02  0.1215162E-02  0.1215162E-02

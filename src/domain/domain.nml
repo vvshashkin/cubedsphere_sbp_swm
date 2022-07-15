@@ -1,0 +1,7 @@
+&domain
+    N = 32,
+    Nz = 1,
+    topology_type    = 'cube',
+    staggering_type  = 'Ah',
+    metric_type      = 'ecs'
+/

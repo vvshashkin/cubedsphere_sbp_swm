@@ -1,0 +1,102 @@
+&domain
+    N = 32,
+    Nz = 1,
+    topology_type    = 'cube',
+    staggering_type  = 'Ah',
+    metric_type      = 'ecs'
+/
+&metric
+/
+&shallow_water_model
+    swm_op_type = 'vector_invariant'
+    v_components_type = 'covariant'
+    div_op_name = 'divergence_ah63_sbp',
+    grad_op_name = 'gradient_ah63_sbp_ecs',
+    coriolis_op_name = 'coriolis_colocated',
+    curl_op_name = 'curl_divergence_ah63_sbp',
+    KE_op_name = 'KE_colocated',
+    co2contra_op_name = 'co2contra_colocated',
+    massflux_op_name = 'massflux_colocated',
+    quadrature_name = 'SBP_Ah63_quadrature',
+    diff_time_scheme = 'explicit_Eul1'
+    uv_diff_coeff = 0.03,
+    hordiff_uv_name = 'hordiff_vec_xyz_Ah_sbp_63_narrow',
+    h_diff_coeff = 0.01,
+    hordiff_h_name = 'hordiff_scalar_Ah_sbp_63_narrow',
+    dt=600,
+    tau_write = 86400.0,
+    tau_diagnostics = 3600.0
+    simulation_time_days = 10.0,
+    simulation_time_hours = 0.0,
+    simulation_time_min = 0.0,
+    simulation_time_sec = 0.0,
+/
+&shallow_water_model_Ah_adv
+    swm_op_type       = 'advective'
+    v_components_type = 'contravariant'
+    div_op_name       = 'divergence_ah42_sbp',
+    grad_op_name      = 'gradient_ah42_sbp_ecs',
+    coriolis_op_name  = 'coriolis_colocated',
+    co2contra_op_name = 'co2contra_colocated',
+    vector_adv_op_name= 'vector_advection_Ah42'
+    massflux_op_name  = 'massflux_colocated',
+    quadrature_name   = 'SBP_Ah42_quadrature',
+    diff_time_scheme  = "explicit_Eul1"
+    uv_diff_coeff     =  0.005,
+    hordiff_uv_name   = 'hordiff_vec_xyz_Ah',
+    h_diff_coeff      =  0.00,
+    hordiff_h_name    = 'hordiff_scalar_Ah',
+    dt=200.0,
+    tau_write = 21600.0,
+    tau_diagnostics = 3600.0
+    simulation_time_days  = 30.0,
+    simulation_time_hours = 0.0,
+    simulation_time_min   = 0.0,
+    simulation_time_sec   = 0.0,
+/
+&shallow_water_model
+    swm_op_type       = 'advective'
+    v_components_type = "contravariant"
+    div_op_name       = 'divergence_c_sbp42',
+    grad_op_name      = 'gradient_c_sbp42',
+    coriolis_op_name  = 'coriolis_Cgrid_noncons_sbp42',
+    co2contra_op_name = 'co2contra_c_sbp42_new',
+    vector_adv_op_name= 'vector_advection_C_up4'
+    massflux_op_name  = 'massflux_c_up4',
+    quadrature_name   = 'SBP_C42_quadrature',
+    diff_time_scheme  = "explicit_Eul1"
+    uv_diff_coeff     =  0.00,
+    hordiff_uv_name   = 'hordiff_c_biharm_curl_div',
+    h_diff_coeff      =  0.00,
+    hordiff_h_name    = 'hordiff_scalar_C',
+    dt=150.0,
+    tau_write = 21600.0,
+    tau_diagnostics = 3600.0
+    simulation_time_days  = 120.0,
+    simulation_time_hours = 0.0,
+    simulation_time_min   = 0.0,
+    simulation_time_sec   = 0.0,
+/
+&shallow_water_model_c
+    swm_op_type       = 'vector_invariant'
+    div_op_name       = 'divergence_c_sbp42',
+    grad_op_name      = 'gradient_c_sbp42',
+    coriolis_op_name  = 'coriolis_Cgrid_sbp42',
+    curl_op_name      = 'curl_c_sbp42',
+    KE_op_name        = 'KE_Cgrid_sbp42',
+    co2contra_op_name = 'co2contra_c_sbp42',
+    massflux_op_name  = 'massflux_c_sbp42',
+    quadrature_name   = 'SBP_C42_quadrature',
+    diff_time_scheme  = "explicit_Eul1"
+    uv_diff_coeff     =  0.03,
+    hordiff_uv_name   = 'hordiff_c_biharm_curl_div',
+    h_diff_coeff      =  0.03,
+    hordiff_h_name    = 'hordiff_scalar_C',
+    dt=900.0,
+    tau_write = 21600.0,
+    tau_diagnostics = 900.0
+    simulation_time_days  = 0.0,
+    simulation_time_hours = 30.0,
+    simulation_time_min   = 0.0,
+    simulation_time_sec   = 0.0,
+/

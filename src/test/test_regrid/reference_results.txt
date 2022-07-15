@@ -1,0 +1,24 @@
+ scalar latlon regrid test, staggering: A
+ Interpolation error (linear)  6.020906408766846E-004
+ Interpolation error (cubic)   9.049645984804400E-007
+ scalar latlon regrid test, staggering: Ah
+ Interpolation error (linear)  5.796253162791976E-004
+ Interpolation error (cubic)   1.143424434357776E-006
+ vector latlon regrid test, staggering: Ah, components type: covariant
+ Interpolation error (linear)  8.345124006564619E-004  5.780855030697030E-004
+ Interpolation error (cubic)   3.839522082937918E-006  2.286045323929287E-006
+ vector latlon regrid test, staggering: Ah, components type: contravariant
+ Interpolation error (linear)  8.771964537268584E-004  5.435541988446646E-004
+ Interpolation error (cubic)   1.093237439198091E-005  4.026751169255993E-006
+ vector latlon regrid test, staggering: A, components type: covariant
+ Interpolation error (linear)  8.806360910069699E-004  7.217015057608966E-004
+ Interpolation error (cubic)   9.362992593464625E-006  8.556875143894693E-006
+ vector latlon regrid test, staggering: A, components type: contravariant
+ Interpolation error (linear)  8.806360910069699E-004  7.217015057607856E-004
+ Interpolation error (cubic)   9.362992593464625E-006  8.556875144116738E-006
+ vector latlon regrid test, staggering: C, components type: covariant
+ Interpolation error (linear)  8.804432843224630E-004  7.217932351546441E-004
+ Interpolation error (cubic)   9.619963218243655E-006  8.720742525669678E-006
+ vector latlon regrid test, staggering: C, components type: contravariant
+ Interpolation error (linear)  8.807336714509173E-004  7.213408204252980E-004
+ Interpolation error (cubic)   9.233156964771894E-006  8.927328196017825E-006
